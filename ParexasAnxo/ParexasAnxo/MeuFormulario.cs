@@ -32,6 +32,7 @@ namespace ParexasAnxo
             iniciarXogo();
         }
 
+        //función novo xogo
         private void btnXogoNovo_Click(object sender, EventArgs e)
         {
             this.Controls.Clear();
@@ -40,7 +41,7 @@ namespace ParexasAnxo
             iniciarXogo();
         }
 
-
+        //Método para iniciar o xogo
         public void iniciarXogo()
         {
             partida = new Partida(4, 0, 0);
@@ -79,6 +80,7 @@ namespace ParexasAnxo
             }
         }
         
+        //Configuración do panel de xogo
         private void configPanelXogo()
         {
             //Creo o panel de xogo
@@ -94,6 +96,7 @@ namespace ParexasAnxo
             }
         }        
 
+        //Método para baraxar as cartas
         private void baraxarCartas()
         {
             Random NumeroAleatorio = new Random();
@@ -107,92 +110,107 @@ namespace ParexasAnxo
             partida.listaCartas.AddRange(cartasBaraxadas);
         }
 
+        //Función de clickar nunha carta
         private void btnCarta_Click(object sender, EventArgs e)
         {
-            partida.contMovementos++;
-            lblMovementosEdit.Text = partida.contMovementos.ToString();
-
-            cartaSeleccionada = (PictureBox)sender;
-
-            CartaLib.ucImaxe ucCartaSeleccionada = (CartaLib.ucImaxe)cartaSeleccionada.Parent;
-            int col = tablaPanel.GetCellPosition(ucCartaSeleccionada).Column;
-            int row = tablaPanel.GetCellPosition(ucCartaSeleccionada).Row;
-
-            int contPosicion=0;
-            switch (row)
+            if (indPrimario == -1 | indSecundario == -1)
             {
-                case 0:
-                    row = row + 1;
-                    break;
-                case 1:
-                    row = row + 4;
-                    break;
-                case 2:
-                    row = row + 7;
-                    break;
-                case 3:
-                    row = row + 10;
-                    break;
-                default:
-                    break;
-            }
-            contPosicion = row + col;
+                partida.contMovementos++;
+                lblMovementosEdit.Text = partida.contMovementos.ToString();
 
-            cartaSeleccionada.Image = (Image)myManager.GetObject(partida.listaCartas[contPosicion - 1].rutaImagen);
+                cartaSeleccionada = (PictureBox)sender;
 
-            //guardo el primer índice pulsado
-            if (indPrimario == -1)
-            {
-                indPrimario = contPosicion - 1;
-                cartaSeleccionada1 = cartaSeleccionada;
-            }
-            else
-            {
-                indSecundario = contPosicion - 1;
-                cartaSeleccionada2 = cartaSeleccionada;
-                if (indPrimario == indSecundario)
+                CartaLib.ucImaxe ucCartaSeleccionada = (CartaLib.ucImaxe)cartaSeleccionada.Parent;
+                int col = tablaPanel.GetCellPosition(ucCartaSeleccionada).Column;
+                int row = tablaPanel.GetCellPosition(ucCartaSeleccionada).Row;
+
+                int contPosicion = 0;
+                switch (row)
                 {
-
-                    cartaSeleccionada1.Image = (Image)myManager.GetObject(partida.listaCartas[indPrimario].rutaImagenReverso);
-                    cartaSeleccionada2.Image = (Image)myManager.GetObject(partida.listaCartas[indSecundario].rutaImagenReverso);
-                    indPrimario = -1;
-                    indSecundario = -1;
-
+                    case 0:
+                        row = row + 1;
+                        break;
+                    case 1:
+                        row = row + 4;
+                        break;
+                    case 2:
+                        row = row + 7;
+                        break;
+                    case 3:
+                        row = row + 10;
+                        break;
+                    default:
+                        break;
                 }
-                else if (partida.listaCartas[indPrimario].idCarta != partida.listaCartas[indSecundario].idCarta)
+                contPosicion = row + col;
+
+                cartaSeleccionada.Image = (Image)myManager.GetObject(partida.listaCartas[contPosicion - 1].rutaImagen);
+
+                //guardo el primer índice pulsado
+                if (indPrimario == -1)
                 {
-                    tTempo.Enabled = true;
-                    tTempo.Start();
+                    indPrimario = contPosicion - 1;
+                    cartaSeleccionada1 = cartaSeleccionada;
                 }
                 else
                 {
-                    partida.contCantidadCartasXiradas++;
-                    partida.contCantidadCartasXiradas++;
-                    indPrimario = -1;
-                    indSecundario = -1;
-
-                    if (partida.contCantidadCartasXiradas == 16)
+                    indSecundario = contPosicion - 1;
+                    cartaSeleccionada2 = cartaSeleccionada;
+                    if (indPrimario == indSecundario)
                     {
-                        string nomeUsu = Microsoft.VisualBasic.Interaction.InputBox(StringResources.tiganas + "\n\n" + StringResources.teunome,StringResources.tiganas,StringResources.anonimo);
-                        if (nomeUsu.CompareTo("")!=0)
-                        {
-                            guardarMovementos(partida.contMovementos.ToString(),nomeUsu);
-                        }
-                        
-                        DialogResult result= MessageBox.Show(StringResources.desexas, StringResources.fin, MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk);
-                        
 
-                        if (result == DialogResult.Yes)
+                        cartaSeleccionada1.Image = (Image)myManager.GetObject(partida.listaCartas[indPrimario].rutaImagenReverso);
+                        cartaSeleccionada2.Image = (Image)myManager.GetObject(partida.listaCartas[indSecundario].rutaImagenReverso);
+                        indPrimario = -1;
+                        indSecundario = -1;
+
+                    }
+                    else if (partida.listaCartas[indPrimario].idCarta != partida.listaCartas[indSecundario].idCarta)
+                    {
+                        foreach (CartaLib.ucImaxe item in tablaPanel.Controls)
                         {
-                            btnXogoNovo_Click(null, null);
-                        }else
-                            Application.Exit();
+                            item.Enabled = false;
+                        }
+                        tTempo.Enabled = true;
+                        tTempo.Start();
+                        foreach (CartaLib.ucImaxe item in tablaPanel.Controls)
+                        {
+                            item.Enabled = true;
+                        }
+                    }
+                    else
+                    {
+                        partida.contCantidadCartasXiradas++;
+                        partida.contCantidadCartasXiradas++;
+                        cartaSeleccionada1.Enabled = false;
+                        cartaSeleccionada2.Enabled = false;
+                        indPrimario = -1;
+                        indSecundario = -1;
+
+                        if (partida.contCantidadCartasXiradas == 16)
+                        {
+                            string nomeUsu = Microsoft.VisualBasic.Interaction.InputBox(StringResources.tiganas + "\n\n" + StringResources.teunome, StringResources.tiganas, StringResources.anonimo);
+                            if (nomeUsu.CompareTo("") != 0)
+                            {
+                                guardarMovementos(partida.contMovementos.ToString(), nomeUsu);
+                            }
+
+                            DialogResult result = MessageBox.Show(StringResources.desexas, StringResources.fin, MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk);
+
+
+                            if (result == DialogResult.Yes)
+                            {
+                                btnXogoNovo_Click(null, null);
+                            }
+                            else
+                                Application.Exit();
+                        }
                     }
                 }
             }
         }
 
-        //Método que da un tiempo de espera en la comprobación de las cartas
+        //Método que da un tempo de espera na comprobación das cartas
         private void tTempo_Tick(object sender, EventArgs e)
         {
             cartaSeleccionada1.Image = (Image)myManager.GetObject(partida.listaCartas[indPrimario].rutaImagenReverso);
@@ -202,12 +220,13 @@ namespace ParexasAnxo
             tTempo.Stop();
         }
 
-        //Opcións menú
+        //Opción de saída
         private void mItemSair_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
+        //Cambiar ó tema vermello
         private void mItemTemaVermello_Click(object sender, EventArgs e)
         {
             lblEncabezado.BackColor = Color.IndianRed;
@@ -215,6 +234,7 @@ namespace ParexasAnxo
             lblDatos.BackColor = Color.LightCoral;
         }
 
+        //Cambiar ó tema azul
         private void mItemTemaAzul_Click(object sender, EventArgs e)
         {
             lblEncabezado.BackColor = Color.RoyalBlue;
@@ -222,6 +242,7 @@ namespace ParexasAnxo
             lblDatos.BackColor = Color.DodgerBlue;
         }
 
+        //Cambiar ó tema Amarelo
         private void mItemAmarelo_Click(object sender, EventArgs e)
         {
             lblEncabezado.BackColor = Color.Gold;
@@ -229,6 +250,7 @@ namespace ParexasAnxo
             lblDatos.BackColor = Color.Khaki;
         }
 
+        //Cambiar ó tema Verde
         private void mItemTemaVerde_Click(object sender, EventArgs e)
         {
             lblEncabezado.BackColor = Color.Olive;
@@ -237,12 +259,13 @@ namespace ParexasAnxo
         }
 
         
-
+        //Mostrar información do autor
         private void mItemAutor_Click(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show(StringResources.feitopor + "\n\t" + StringResources.autor + "\n\n" + StringResources.proxecto + "\n" + StringResources.curso, StringResources.infor, MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
+        //Cambiar o idioma a galego
         private void mItemGalego_Click(object sender, EventArgs e)
         {
             this.Controls.Clear();
@@ -251,6 +274,7 @@ namespace ParexasAnxo
             iniciarXogo();
         }
 
+        //Cambiar o idioma a español
         private void mItemEspanol_Click(object sender, EventArgs e)
         {
             this.Controls.Clear();
@@ -259,6 +283,7 @@ namespace ParexasAnxo
             iniciarXogo();
         }
 
+        //Cambiar o idioma a inglés
         private void mItemIngles_Click(object sender, EventArgs e)
         {
             this.Controls.Clear();
