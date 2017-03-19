@@ -117,215 +117,650 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;mItemEditar.Name" xml:space="preserve">
-    <value>mItemEditar</value>
-  </data>
-  <data name="&gt;&gt;mItemTemaVermello.Name" xml:space="preserve">
-    <value>mItemTemaVermello</value>
-  </data>
-  <data name="toolStripButton2.ToolTipText" xml:space="preserve">
-    <value>Reiniciar xogo</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="mItemAmarelo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 22</value>
+  <data name="PanelXogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="PanelXogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>600, 600</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btnReiniciar.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="PanelXogo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="mItemEspanol.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+  <data name="&gt;&gt;PanelXogo.Name" xml:space="preserve">
+    <value>PanelXogo</value>
   </data>
-  <data name="&gt;&gt;mItemIngles.Name" xml:space="preserve">
-    <value>mItemIngles</value>
+  <data name="&gt;&gt;PanelXogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="mItemDetalles.ToolTipText" xml:space="preserve">
-    <value>Detalles</value>
+  <data name="&gt;&gt;PanelXogo.Parent" xml:space="preserve">
+    <value>panelFondo</value>
   </data>
-  <data name="toolStripButton4.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
+  <data name="&gt;&gt;PanelXogo.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="&gt;&gt;mItemReiniciarXogo.Name" xml:space="preserve">
-    <value>mItemReiniciarXogo</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="PanelAdicional.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
-  <data name="&gt;&gt;toolStripButton6.Name" xml:space="preserve">
-    <value>toolStripButton6</value>
+  <data name="btnXogoNovo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom</value>
   </data>
-  <data name="&gt;&gt;tlbVermello.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="btnXogoNovo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 24pt</value>
   </data>
-  <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 25</value>
+  <data name="btnXogoNovo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;toolStripSeparator8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="btnXogoNovo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 499</value>
   </data>
-  <data name="lblDatos.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 24pt, style=Bold</value>
+  <data name="btnXogoNovo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 94</value>
   </data>
-  <data name="&gt;&gt;lblMovementos.Parent" xml:space="preserve">
+  <data name="btnXogoNovo.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnXogoNovo.Text" xml:space="preserve">
+    <value>&amp;Novo xogo</value>
+  </data>
+  <data name="&gt;&gt;btnXogoNovo.Name" xml:space="preserve">
+    <value>btnXogoNovo</value>
+  </data>
+  <data name="&gt;&gt;btnXogoNovo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnXogoNovo.Parent" xml:space="preserve">
     <value>PanelAdicional</value>
   </data>
-  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;btnXogoNovo.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;toolStripSeparator4.Name" xml:space="preserve">
-    <value>toolStripSeparator4</value>
+  <data name="lblPuntuacions.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
   </data>
-  <data name="&gt;&gt;mItemXogo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lblPuntuacions.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="lblPuntuacions.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPuntuacions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 250</value>
+  </data>
+  <data name="lblPuntuacions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 50</value>
+  </data>
+  <data name="lblPuntuacions.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblPuntuacions.Text" xml:space="preserve">
+    <value>Puntuacións:</value>
+  </data>
+  <data name="lblPuntuacions.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblPuntuacions.Name" xml:space="preserve">
+    <value>lblPuntuacions</value>
+  </data>
+  <data name="&gt;&gt;lblPuntuacions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPuntuacions.Parent" xml:space="preserve">
+    <value>PanelAdicional</value>
+  </data>
+  <data name="&gt;&gt;lblPuntuacions.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbPuntuacions.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom</value>
+  </data>
+  <data name="lbPuntuacions.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="lbPuntuacions.ItemHeight" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="lbPuntuacions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 303</value>
+  </data>
+  <data name="lbPuntuacions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 190</value>
+  </data>
+  <data name="lbPuntuacions.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lbPuntuacions.Name" xml:space="preserve">
+    <value>lbPuntuacions</value>
+  </data>
+  <data name="&gt;&gt;lbPuntuacions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbPuntuacions.Parent" xml:space="preserve">
+    <value>PanelAdicional</value>
+  </data>
+  <data name="&gt;&gt;lbPuntuacions.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblMovementosEdit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="lblMovementosEdit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 27.75pt</value>
+  </data>
+  <data name="lblMovementosEdit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblMovementosEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-2, 200</value>
+  </data>
+  <data name="lblMovementosEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 50</value>
+  </data>
+  <data name="lblMovementosEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="lblMovementosEdit.Text" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;mItemAutor.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lblMovementosEdit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
   </data>
-  <data name="mItemDetalles.Text" xml:space="preserve">
-    <value>&amp;Detalles</value>
+  <data name="&gt;&gt;lblMovementosEdit.Name" xml:space="preserve">
+    <value>lblMovementosEdit</value>
   </data>
-  <data name="mItemNovoXogo.Text" xml:space="preserve">
-    <value>&amp;Novo xogo</value>
+  <data name="&gt;&gt;lblMovementosEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tTempo.Name" xml:space="preserve">
-    <value>tTempo</value>
+  <data name="&gt;&gt;lblMovementosEdit.Parent" xml:space="preserve">
+    <value>PanelAdicional</value>
+  </data>
+  <data name="&gt;&gt;lblMovementosEdit.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblDatos.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblDatos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 24pt, style=Bold</value>
+  </data>
+  <data name="lblDatos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblDatos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblDatos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 100</value>
+  </data>
+  <data name="lblDatos.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblDatos.Text" xml:space="preserve">
+    <value>Datos partida:</value>
+  </data>
+  <data name="lblDatos.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblDatos.Name" xml:space="preserve">
+    <value>lblDatos</value>
+  </data>
+  <data name="&gt;&gt;lblDatos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDatos.Parent" xml:space="preserve">
+    <value>PanelAdicional</value>
+  </data>
+  <data name="&gt;&gt;lblDatos.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblMovementos.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="lblMovementos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="lblMovementos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblMovementos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 150</value>
+  </data>
+  <data name="lblMovementos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 50</value>
+  </data>
+  <data name="lblMovementos.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblMovementos.Text" xml:space="preserve">
+    <value>Nº movementos:</value>
+  </data>
+  <data name="lblMovementos.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblMovementos.Name" xml:space="preserve">
+    <value>lblMovementos</value>
+  </data>
+  <data name="&gt;&gt;lblMovementos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMovementos.Parent" xml:space="preserve">
+    <value>PanelAdicional</value>
+  </data>
+  <data name="&gt;&gt;lblMovementos.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="PanelAdicional.Location" type="System.Drawing.Point, System.Drawing">
+    <value>700, 50</value>
+  </data>
+  <data name="PanelAdicional.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 600</value>
+  </data>
+  <data name="PanelAdicional.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;PanelAdicional.Name" xml:space="preserve">
+    <value>PanelAdicional</value>
   </data>
   <data name="&gt;&gt;PanelAdicional.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="tlbAzul.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
+  <data name="&gt;&gt;PanelAdicional.Parent" xml:space="preserve">
+    <value>panelFondo</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btnXogoNovo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="&gt;&gt;PanelAdicional.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblEncabezado.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblEncabezado.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Fax, 48pt, style=Bold</value>
+  </data>
+  <data name="lblEncabezado.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="lblEncabezado.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 24</value>
   </data>
-  <data name="&gt;&gt;PanelXogo.Name" xml:space="preserve">
-    <value>PanelXogo</value>
+  <data name="lblEncabezado.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
-  <data name="mItemAmarelo.ToolTipText" xml:space="preserve">
-    <value>Tema Amarelo</value>
+  <data name="lblEncabezado.Size" type="System.Drawing.Size, System.Drawing">
+    <value>984, 100</value>
   </data>
-  <data name="btnXogoNovo.ToolTip" xml:space="preserve">
-    <value />
+  <data name="lblEncabezado.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
-  <data name="&gt;&gt;mItemSair.Name" xml:space="preserve">
-    <value>mItemSair</value>
+  <data name="lblEncabezado.Text" xml:space="preserve">
+    <value>ATOPA A PAREXA</value>
   </data>
-  <data name="mItemNovoXogo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+  <data name="lblEncabezado.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
   </data>
-  <data name="&gt;&gt;PanelXogo.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;lblEncabezado.Name" xml:space="preserve">
+    <value>lblEncabezado</value>
   </data>
-  <data name="&gt;&gt;mItemIngles.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblMovementosEdit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-2, 200</value>
-  </data>
-  <data name="mItemTemaVerde.Text" xml:space="preserve">
-    <value>Verde</value>
-  </data>
-  <data name="toolStripButton2.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="&gt;&gt;lblMovementos.Type" xml:space="preserve">
+  <data name="&gt;&gt;lblEncabezado.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mItemTemaVerde.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripButton2.Name" xml:space="preserve">
-    <value>toolStripButton2</value>
-  </data>
-  <data name="btnReiniciar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom</value>
-  </data>
-  <data name="&gt;&gt;tlbVermello.Name" xml:space="preserve">
-    <value>tlbVermello</value>
-  </data>
-  <data name="&gt;&gt;mItemTemaAmarelo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStrip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="toolStripButton3.ToolTipText" xml:space="preserve">
-    <value>Sair do xogo</value>
   </data>
   <data name="&gt;&gt;lblEncabezado.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="PanelAdicional.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;lblEncabezado.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="panelBtns.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 351</value>
+  <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>194, 17</value>
+  </metadata>
+  <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
   </data>
-  <data name="tlbVerde.Text" xml:space="preserve">
-    <value>toolStripButton9</value>
+  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
   </data>
-  <data name="mItemXogo.Text" xml:space="preserve">
-    <value>&amp;Xogo</value>
+  <data name="toolStripButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStripButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolStripButton1.Text" xml:space="preserve">
+    <value>tsbNovo</value>
+  </data>
+  <data name="toolStripButton1.ToolTipText" xml:space="preserve">
+    <value>Novo xogo</value>
+  </data>
+  <data name="toolStripButton3.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStripButton3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolStripButton3.Text" xml:space="preserve">
+    <value>tlbExit</value>
+  </data>
+  <data name="toolStripButton3.ToolTipText" xml:space="preserve">
+    <value>Sair do xogo</value>
+  </data>
+  <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="toolStripButton4.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStripButton4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolStripButton4.Text" xml:space="preserve">
+    <value>tlbGL</value>
+  </data>
+  <data name="toolStripButton4.ToolTipText" xml:space="preserve">
+    <value>Idioma galego</value>
+  </data>
+  <data name="toolStripButton5.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStripButton5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolStripButton5.Text" xml:space="preserve">
+    <value>tlbES</value>
   </data>
   <data name="toolStripButton5.ToolTipText" xml:space="preserve">
     <value>Idioma Español</value>
   </data>
-  <data name="&gt;&gt;btnXogoNovo.Parent" xml:space="preserve">
-    <value>panelBtns</value>
+  <data name="toolStripButton6.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
   </data>
-  <data name="lblMovementosEdit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 50</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator7.Name" xml:space="preserve">
-    <value>toolStripSeparator7</value>
-  </data>
-  <data name="toolStripButton2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="toolStripButton6.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 22</value>
-  </data>
-  <data name="&gt;&gt;miToolTip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="mItemCambiarTema.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="&gt;&gt;mItemTemaAmarelo.Name" xml:space="preserve">
-    <value>mItemTemaAmarelo</value>
-  </data>
-  <data name="mItemIdioma.ToolTipText" xml:space="preserve">
-    <value>Idioma</value>
   </data>
   <data name="toolStripButton6.Text" xml:space="preserve">
     <value>tlbEN</value>
   </data>
-  <data name="&gt;&gt;lblMovementos.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="toolStripButton6.ToolTipText" xml:space="preserve">
+    <value>Idioma Inglés</value>
   </data>
-  <data name="panelFondo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="mItemAmarelo.Text" xml:space="preserve">
-    <value>Amarelo</value>
-  </data>
-  <data name="&gt;&gt;lblMovementosEdit.Name" xml:space="preserve">
-    <value>lblMovementosEdit</value>
-  </data>
-  <data name="lblMovementos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
   </data>
   <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
     <value>6, 25</value>
   </data>
+  <data name="tlbVermello.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tlbVermello.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="tlbVermello.ToolTipText" xml:space="preserve">
+    <value>Tema vermello</value>
+  </data>
+  <data name="tlbAzul.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tlbAzul.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="tlbAzul.Text" xml:space="preserve">
+    <value>toolStripButton8</value>
+  </data>
+  <data name="tlbAzul.ToolTipText" xml:space="preserve">
+    <value>Tema azul</value>
+  </data>
+  <data name="tlbAmarelo.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tlbAmarelo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="tlbAmarelo.Text" xml:space="preserve">
+    <value>toolStripButton7</value>
+  </data>
+  <data name="tlbAmarelo.ToolTipText" xml:space="preserve">
+    <value>Tema amarelo</value>
+  </data>
+  <data name="tlbVerde.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tlbVerde.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="tlbVerde.Text" xml:space="preserve">
+    <value>toolStripButton9</value>
+  </data>
+  <data name="tlbVerde.ToolTipText" xml:space="preserve">
+    <value>Tema verde</value>
+  </data>
+  <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="toolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="toolStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="toolStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>984, 25</value>
+  </data>
+  <data name="toolStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="toolStrip1.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Name" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Parent" xml:space="preserve">
+    <value>panelFondo</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelFondo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelFondo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 124</value>
+  </data>
+  <data name="panelFondo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>984, 687</value>
+  </data>
+  <data name="panelFondo.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panelFondo.Name" xml:space="preserve">
+    <value>panelFondo</value>
+  </data>
+  <data name="&gt;&gt;panelFondo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelFondo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelFondo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="tTempo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="menu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>111, 17</value>
+  </metadata>
+  <data name="mItemNovoXogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <data name="mItemNovoXogo.Text" xml:space="preserve">
+    <value>&amp;Novo xogo</value>
+  </data>
+  <data name="mItemNovoXogo.ToolTipText" xml:space="preserve">
+    <value>Novo xogo</value>
+  </data>
+  <data name="mItemSair.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <data name="mItemSair.Text" xml:space="preserve">
+    <value>&amp;Sair</value>
+  </data>
+  <data name="mItemSair.ToolTipText" xml:space="preserve">
+    <value>Sair do xogo</value>
+  </data>
+  <data name="mItemXogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 20</value>
+  </data>
+  <data name="mItemXogo.Text" xml:space="preserve">
+    <value>&amp;Xogo</value>
+  </data>
+  <data name="mItemXogo.ToolTipText" xml:space="preserve">
+    <value>Xogo</value>
+  </data>
+  <data name="mItemGalego.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 22</value>
+  </data>
+  <data name="mItemGalego.Text" xml:space="preserve">
+    <value>Galego</value>
+  </data>
+  <data name="mItemGalego.ToolTipText" xml:space="preserve">
+    <value>Idioma galego</value>
+  </data>
+  <data name="mItemEspanol.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 22</value>
+  </data>
+  <data name="mItemEspanol.Text" xml:space="preserve">
+    <value>Español</value>
+  </data>
+  <data name="mItemEspanol.ToolTipText" xml:space="preserve">
+    <value>Idioma español</value>
+  </data>
+  <data name="mItemIngles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 22</value>
+  </data>
+  <data name="mItemIngles.Text" xml:space="preserve">
+    <value>Inglés</value>
+  </data>
+  <data name="mItemIngles.ToolTipText" xml:space="preserve">
+    <value>Idioma inglés</value>
+  </data>
+  <data name="mItemIdioma.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 20</value>
+  </data>
+  <data name="mItemIdioma.Text" xml:space="preserve">
+    <value>&amp;Idioma</value>
+  </data>
+  <data name="mItemIdioma.ToolTipText" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="mItemTemaVermello.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 22</value>
+  </data>
+  <data name="mItemTemaVermello.Text" xml:space="preserve">
+    <value>Vermello</value>
+  </data>
+  <data name="mItemTemaVermello.ToolTipText" xml:space="preserve">
+    <value>Tema Vermello</value>
+  </data>
+  <data name="mItemTemaAzul.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 22</value>
+  </data>
+  <data name="mItemTemaAzul.Text" xml:space="preserve">
+    <value>Azul</value>
+  </data>
+  <data name="mItemTemaAzul.ToolTipText" xml:space="preserve">
+    <value>Tema Azul</value>
+  </data>
+  <data name="mItemTemaAmarelo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 22</value>
+  </data>
+  <data name="mItemTemaVerde.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 22</value>
+  </data>
+  <data name="mItemTemaVerde.Text" xml:space="preserve">
+    <value>Verde</value>
+  </data>
+  <data name="mItemTemaVerde.ToolTipText" xml:space="preserve">
+    <value>Tema Verde</value>
+  </data>
+  <data name="mItemCambiarTema.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 22</value>
+  </data>
   <data name="mItemCambiarTema.Text" xml:space="preserve">
     <value>Cambiar tema</value>
   </data>
+  <data name="mItemCambiarTema.ToolTipText" xml:space="preserve">
+    <value>Cambiar de tema</value>
+  </data>
+  <data name="mItemEditar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 20</value>
+  </data>
+  <data name="mItemEditar.Text" xml:space="preserve">
+    <value>&amp;Editar</value>
+  </data>
+  <data name="mItemEditar.ToolTipText" xml:space="preserve">
+    <value>Opcións a editar</value>
+  </data>
+  <data name="mItemAutor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 22</value>
+  </data>
+  <data name="mItemAutor.Text" xml:space="preserve">
+    <value>&amp;Autor</value>
+  </data>
+  <data name="mItemAutor.ToolTipText" xml:space="preserve">
+    <value>Datos autor</value>
+  </data>
+  <data name="mItemDetalles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="mItemDetalles.Text" xml:space="preserve">
+    <value>&amp;Detalles</value>
+  </data>
+  <data name="mItemDetalles.ToolTipText" xml:space="preserve">
+    <value>Detalles</value>
+  </data>
+  <data name="menu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>984, 24</value>
+  </data>
+  <data name="menu.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="menu.Text" xml:space="preserve">
+    <value>menu</value>
+  </data>
+  <data name="&gt;&gt;menu.Name" xml:space="preserve">
+    <value>menu</value>
+  </data>
+  <data name="&gt;&gt;menu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menu.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="miToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>299, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>984, 811</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3308,733 +3743,217 @@
         AAAAAAAAAAAAAAAAAACAAAAAAAAAAAABAAAAAwAAAAMAAAAHAACBBwAA
 </value>
   </data>
-  <data name="&gt;&gt;toolStripButton6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Atopa a parexa</value>
   </data>
-  <data name="&gt;&gt;mItemAmarelo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="toolStripButton2.Text" xml:space="preserve">
-    <value>tlbReiniciar</value>
-  </data>
-  <data name="&gt;&gt;panelFondo.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="menu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>984, 24</value>
-  </data>
-  <data name="lblDatos.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="toolStripButton4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
-  </data>
-  <data name="tlbVerde.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
-  </data>
-  <data name="PanelXogo.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnXogoNovo.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 24pt</value>
-  </data>
-  <data name="toolStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelBtns.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btnReiniciar.Parent" xml:space="preserve">
-    <value>panelBtns</value>
-  </data>
-  <data name="toolStrip1.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;panelFondo.Name" xml:space="preserve">
-    <value>panelFondo</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator5.Name" xml:space="preserve">
-    <value>toolStripSeparator5</value>
-  </data>
-  <data name="&gt;&gt;toolStrip1.Parent" xml:space="preserve">
-    <value>panelFondo</value>
-  </data>
-  <data name="tlbVermello.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
-  </data>
-  <data name="&gt;&gt;mItemReiniciarXogo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblEncabezado.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="toolStripButton3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
-  </data>
-  <data name="mItemSair.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="btnReiniciar.Text" xml:space="preserve">
-    <value>&amp;Reiniciar xogo</value>
-  </data>
-  <data name="&gt;&gt;toolStripButton3.Name" xml:space="preserve">
-    <value>toolStripButton3</value>
-  </data>
-  <data name="&gt;&gt;tlbAzul.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mItemEspanol.Name" xml:space="preserve">
-    <value>mItemEspanol</value>
-  </data>
-  <data name="&gt;&gt;PanelAdicional.Parent" xml:space="preserve">
-    <value>panelFondo</value>
-  </data>
-  <data name="&gt;&gt;menu.Name" xml:space="preserve">
-    <value>menu</value>
-  </data>
-  <data name="panelBtns.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="mItemAutor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="mItemReiniciarXogo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+  <data name="&gt;&gt;toolStripSeparator7.Name" xml:space="preserve">
+    <value>toolStripSeparator7</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator7.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;mItemNovoXogo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="PanelAdicional.Location" type="System.Drawing.Point, System.Drawing">
-    <value>700, 50</value>
-  </data>
-  <data name="mItemEditar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 20</value>
-  </data>
-  <data name="btnXogoNovo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 100</value>
-  </data>
-  <data name="toolStripButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
-  </data>
-  <data name="PanelXogo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>50, 50</value>
-  </data>
-  <data name="&gt;&gt;panelFondo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;mItemTemaVerde.Name" xml:space="preserve">
-    <value>mItemTemaVerde</value>
-  </data>
-  <data name="toolStripButton6.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="mItemCambiarTema.ToolTipText" xml:space="preserve">
-    <value>Cambiar de tema</value>
-  </data>
-  <data name="&gt;&gt;btnXogoNovo.Name" xml:space="preserve">
-    <value>btnXogoNovo</value>
-  </data>
-  <data name="PanelAdicional.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="mItemTemaAmarelo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="tlbAmarelo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
-  </data>
-  <data name="mItemTemaVermello.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 22</value>
-  </data>
-  <data name="tlbAzul.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="&gt;&gt;mItemEspanol.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripButton3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnXogoNovo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 0</value>
-  </data>
-  <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 25</value>
-  </data>
-  <data name="&gt;&gt;PanelXogo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblEncabezado.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="&gt;&gt;mItemNovoXogo.Name" xml:space="preserve">
-    <value>mItemNovoXogo</value>
-  </data>
-  <data name="menu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="mItemEspanol.Text" xml:space="preserve">
-    <value>Español</value>
-  </data>
-  <data name="lblEncabezado.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnXogoNovo.Text" xml:space="preserve">
-    <value>&amp;Novo xogo</value>
-  </data>
-  <data name="&gt;&gt;lblDatos.Parent" xml:space="preserve">
-    <value>PanelAdicional</value>
-  </data>
-  <data name="&gt;&gt;tlbAmarelo.Name" xml:space="preserve">
-    <value>tlbAmarelo</value>
-  </data>
-  <data name="&gt;&gt;lblDatos.Name" xml:space="preserve">
-    <value>lblDatos</value>
-  </data>
-  <data name="&gt;&gt;mItemCambiarTema.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnXogoNovo.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;toolStripButton4.Name" xml:space="preserve">
-    <value>toolStripButton4</value>
-  </data>
-  <data name="mItemTemaAzul.Text" xml:space="preserve">
-    <value>Azul</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">
-    <value>toolStripSeparator3</value>
-  </data>
-  <data name="mItemIngles.ToolTipText" xml:space="preserve">
-    <value>Idioma inglés</value>
-  </data>
-  <data name="&gt;&gt;lblDatos.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="toolStripButton1.Text" xml:space="preserve">
-    <value>tsbNovo</value>
-  </data>
-  <data name="lblDatos.Text" xml:space="preserve">
-    <value>Datos partida:</value>
-  </data>
-  <data name="lblEncabezado.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="lblMovementosEdit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="lblEncabezado.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;panelBtns.Parent" xml:space="preserve">
-    <value>PanelAdicional</value>
-  </data>
-  <data name="panelBtns.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 245</value>
-  </data>
-  <data name="&gt;&gt;mItemSair.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnReiniciar.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 24pt</value>
-  </data>
-  <data name="mItemIdioma.Text" xml:space="preserve">
-    <value>&amp;Idioma</value>
-  </data>
-  <data name="mItemEditar.ToolTipText" xml:space="preserve">
-    <value>Opcións a editar</value>
-  </data>
-  <data name="&gt;&gt;mItemAmarelo.Name" xml:space="preserve">
-    <value>mItemAmarelo</value>
-  </data>
-  <data name="&gt;&gt;toolStrip1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="mItemReiniciarXogo.Text" xml:space="preserve">
-    <value>&amp;Reiniciar xogo</value>
-  </data>
-  <data name="mItemXogo.ToolTipText" xml:space="preserve">
-    <value>Xogo</value>
-  </data>
-  <data name="toolStripButton6.ToolTipText" xml:space="preserve">
-    <value>Idioma Inglés</value>
-  </data>
-  <data name="toolStripButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="&gt;&gt;btnReiniciar.Name" xml:space="preserve">
-    <value>btnReiniciar</value>
-  </data>
-  <data name="btnReiniciar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;mItemCambiarTema.Name" xml:space="preserve">
-    <value>mItemCambiarTema</value>
-  </data>
-  <data name="lblMovementos.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="menu.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="lblMovementosEdit.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 27.75pt</value>
-  </data>
-  <data name="PanelXogo.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;tlbVerde.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menu.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Atopa a parexa</value>
-  </data>
-  <data name="tlbAzul.ToolTipText" xml:space="preserve">
-    <value>Tema azul</value>
-  </data>
-  <data name="panelFondo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>984, 687</value>
-  </data>
-  <data name="&gt;&gt;mItemGalego.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblDatos.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 100</value>
-  </data>
-  <data name="&gt;&gt;tTempo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="toolStripButton4.Text" xml:space="preserve">
-    <value>tlbGL</value>
-  </data>
-  <data name="&gt;&gt;toolStripButton1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="toolStripButton6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
-  </data>
-  <data name="mItemTemaVerde.ToolTipText" xml:space="preserve">
-    <value>Tema Verde</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator6.Name" xml:space="preserve">
-    <value>toolStripSeparator6</value>
-  </data>
-  <data name="toolStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>984, 25</value>
-  </data>
-  <data name="lblMovementos.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblEncabezado.Text" xml:space="preserve">
-    <value>ATOPA A PAREXA</value>
-  </data>
-  <data name="tlbVerde.ToolTipText" xml:space="preserve">
-    <value>Tema verde</value>
-  </data>
-  <data name="mItemIngles.Text" xml:space="preserve">
-    <value>Inglés</value>
-  </data>
-  <data name="mItemReiniciarXogo.ToolTipText" xml:space="preserve">
-    <value>Reiniciar xogo</value>
-  </data>
-  <data name="&gt;&gt;mItemAutor.Name" xml:space="preserve">
-    <value>mItemAutor</value>
-  </data>
-  <data name="&gt;&gt;mItemEditar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="mItemEditar.Text" xml:space="preserve">
-    <value>&amp;Editar</value>
-  </data>
-  <data name="&gt;&gt;lblMovementos.Name" xml:space="preserve">
-    <value>lblMovementos</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblEncabezado.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lucida Fax, 48pt, style=Bold</value>
-  </data>
-  <data name="toolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 25</value>
-  </data>
-  <data name="&gt;&gt;mItemDetalles.Name" xml:space="preserve">
-    <value>mItemDetalles</value>
-  </data>
-  <data name="PanelXogo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>600, 600</value>
-  </data>
-  <data name="panelFondo.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;mItemGalego.Name" xml:space="preserve">
-    <value>mItemGalego</value>
-  </data>
-  <data name="&gt;&gt;btnReiniciar.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>MeuFormulario</value>
-  </data>
-  <data name="&gt;&gt;lblEncabezado.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="mItemEspanol.ToolTipText" xml:space="preserve">
-    <value>Idioma español</value>
-  </data>
-  <data name="lblDatos.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="&gt;&gt;lblEncabezado.Name" xml:space="preserve">
-    <value>lblEncabezado</value>
-  </data>
-  <data name="mItemSair.Text" xml:space="preserve">
-    <value>&amp;Sair</value>
-  </data>
-  <data name="menu.Text" xml:space="preserve">
-    <value>menu</value>
-  </data>
-  <data name="mItemDetalles.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 20</value>
-  </data>
-  <data name="lblEncabezado.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;toolStripButton4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblMovementos.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Left, Right</value>
-  </data>
-  <data name="lblDatos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;PanelAdicional.Name" xml:space="preserve">
-    <value>PanelAdicional</value>
-  </data>
-  <data name="panelBtns.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;btnReiniciar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblMovementosEdit.Parent" xml:space="preserve">
-    <value>PanelAdicional</value>
-  </data>
-  <data name="&gt;&gt;PanelXogo.Parent" xml:space="preserve">
-    <value>panelFondo</value>
-  </data>
-  <data name="lblMovementosEdit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;mItemTemaVermello.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="mItemIngles.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="lblMovementos.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 150</value>
-  </data>
-  <data name="mItemXogo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 20</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tlbVermello.ToolTipText" xml:space="preserve">
-    <value>Tema vermello</value>
-  </data>
-  <data name="lblEncabezado.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="toolStripButton5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
-  </data>
-  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 25</value>
-  </data>
-  <data name="&gt;&gt;mItemTemaAzul.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="mItemTemaAzul.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 22</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
-    <value>toolStripSeparator2</value>
-  </data>
-  <data name="&gt;&gt;panelFondo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblMovementosEdit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Left, Right</value>
-  </data>
-  <data name="&gt;&gt;mItemDetalles.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="mItemAutor.ToolTipText" xml:space="preserve">
-    <value>Datos autor</value>
-  </data>
-  <data name="lblMovementosEdit.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="toolStrip1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="toolStripButton3.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="mItemSair.ToolTipText" xml:space="preserve">
-    <value>Sair do xogo</value>
-  </data>
-  <data name="mItemTemaVermello.ToolTipText" xml:space="preserve">
-    <value>Tema Vermello</value>
-  </data>
-  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 25</value>
-  </data>
-  <data name="panelBtns.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="mItemTemaVermello.Text" xml:space="preserve">
-    <value>Vermello</value>
-  </data>
-  <data name="&gt;&gt;tlbVerde.Name" xml:space="preserve">
-    <value>tlbVerde</value>
-  </data>
-  <data name="&gt;&gt;menu.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="tlbAmarelo.Text" xml:space="preserve">
-    <value>toolStripButton7</value>
-  </data>
-  <data name="&gt;&gt;PanelAdicional.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;mItemXogo.Name" xml:space="preserve">
-    <value>mItemXogo</value>
+  <data name="&gt;&gt;toolStripSeparator5.Name" xml:space="preserve">
+    <value>toolStripSeparator5</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator5.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="$this.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;toolStripButton1.Name" xml:space="preserve">
+    <value>toolStripButton1</value>
   </data>
-  <data name="btnXogoNovo.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="lblEncabezado.Size" type="System.Drawing.Size, System.Drawing">
-    <value>984, 100</value>
-  </data>
-  <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 25</value>
-  </data>
-  <data name="&gt;&gt;lblMovementosEdit.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;lblDatos.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblMovementos.Text" xml:space="preserve">
-    <value>Nº movementos:</value>
-  </data>
-  <data name="lblMovementos.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 20.25pt</value>
-  </data>
-  <data name="&gt;&gt;panelBtns.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="toolStripButton1.ToolTipText" xml:space="preserve">
-    <value>Novo xogo</value>
-  </data>
-  <data name="&gt;&gt;mItemIdioma.Name" xml:space="preserve">
-    <value>mItemIdioma</value>
-  </data>
-  <data name="&gt;&gt;tlbAmarelo.Type" xml:space="preserve">
+  <data name="&gt;&gt;toolStripButton1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="mItemTemaVerde.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 22</value>
+  <data name="&gt;&gt;toolStripButton3.Name" xml:space="preserve">
+    <value>toolStripButton3</value>
   </data>
-  <data name="toolStripButton3.Text" xml:space="preserve">
-    <value>tlbExit</value>
+  <data name="&gt;&gt;toolStripButton3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="menu.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;toolStripSeparator4.Name" xml:space="preserve">
+    <value>toolStripSeparator4</value>
   </data>
-  <data name="&gt;&gt;btnXogoNovo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStrip1.Name" xml:space="preserve">
-    <value>toolStrip1</value>
-  </data>
-  <data name="&gt;&gt;toolStripButton5.Name" xml:space="preserve">
-    <value>toolStripButton5</value>
-  </data>
-  <data name="PanelAdicional.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="lblMovementosEdit.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>984, 811</value>
-  </data>
-  <data name="toolStripButton5.Text" xml:space="preserve">
-    <value>tlbES</value>
-  </data>
-  <data name="btnReiniciar.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="btnReiniciar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 110</value>
+  <data name="&gt;&gt;toolStripSeparator4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
     <value>toolStripSeparator1</value>
   </data>
-  <data name="&gt;&gt;toolStripButton2.Type" xml:space="preserve">
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton4.Name" xml:space="preserve">
+    <value>toolStripButton4</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton4.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lblDatos.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="btnXogoNovo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom</value>
-  </data>
-  <data name="lblMovementos.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 50</value>
-  </data>
-  <data name="toolStripButton5.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="&gt;&gt;lblMovementosEdit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblDatos.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;tlbAzul.Name" xml:space="preserve">
-    <value>tlbAzul</value>
-  </data>
-  <data name="tlbVermello.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="lblDatos.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="tlbAmarelo.ToolTipText" xml:space="preserve">
-    <value>Tema amarelo</value>
-  </data>
-  <data name="mItemNovoXogo.ToolTipText" xml:space="preserve">
-    <value>Novo xogo</value>
-  </data>
-  <data name="mItemAutor.Text" xml:space="preserve">
-    <value>&amp;Autor</value>
-  </data>
-  <data name="mItemGalego.Text" xml:space="preserve">
-    <value>Galego</value>
-  </data>
-  <data name="tlbAzul.Text" xml:space="preserve">
-    <value>toolStripButton8</value>
-  </data>
-  <data name="tlbVerde.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="tlbAmarelo.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="mItemTemaAzul.ToolTipText" xml:space="preserve">
-    <value>Tema Azul</value>
-  </data>
-  <data name="mItemGalego.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="PanelAdicional.Size" type="System.Drawing.Size, System.Drawing">
-    <value>225, 600</value>
-  </data>
-  <data name="lblMovementos.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;panelBtns.Name" xml:space="preserve">
-    <value>panelBtns</value>
-  </data>
-  <data name="toolStripButton4.ToolTipText" xml:space="preserve">
-    <value>Idioma galego</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator8.Name" xml:space="preserve">
-    <value>toolStripSeparator8</value>
-  </data>
-  <data name="&gt;&gt;menu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripButton1.Name" xml:space="preserve">
-    <value>toolStripButton1</value>
+  <data name="&gt;&gt;toolStripButton5.Name" xml:space="preserve">
+    <value>toolStripButton5</value>
   </data>
   <data name="&gt;&gt;toolStripButton5.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;toolStripButton6.Name" xml:space="preserve">
+    <value>toolStripButton6</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">
+    <value>toolStripSeparator3</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlbVermello.Name" xml:space="preserve">
+    <value>tlbVermello</value>
+  </data>
+  <data name="&gt;&gt;tlbVermello.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlbAzul.Name" xml:space="preserve">
+    <value>tlbAzul</value>
+  </data>
+  <data name="&gt;&gt;tlbAzul.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlbAmarelo.Name" xml:space="preserve">
+    <value>tlbAmarelo</value>
+  </data>
+  <data name="&gt;&gt;tlbAmarelo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlbVerde.Name" xml:space="preserve">
+    <value>tlbVerde</value>
+  </data>
+  <data name="&gt;&gt;tlbVerde.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator6.Name" xml:space="preserve">
+    <value>toolStripSeparator6</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator8.Name" xml:space="preserve">
+    <value>toolStripSeparator8</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tTempo.Name" xml:space="preserve">
+    <value>tTempo</value>
+  </data>
+  <data name="&gt;&gt;tTempo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mItemXogo.Name" xml:space="preserve">
+    <value>mItemXogo</value>
+  </data>
+  <data name="&gt;&gt;mItemXogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mItemNovoXogo.Name" xml:space="preserve">
+    <value>mItemNovoXogo</value>
+  </data>
+  <data name="&gt;&gt;mItemNovoXogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mItemSair.Name" xml:space="preserve">
+    <value>mItemSair</value>
+  </data>
+  <data name="&gt;&gt;mItemSair.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mItemIdioma.Name" xml:space="preserve">
+    <value>mItemIdioma</value>
+  </data>
+  <data name="&gt;&gt;mItemIdioma.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mItemGalego.Name" xml:space="preserve">
+    <value>mItemGalego</value>
+  </data>
+  <data name="&gt;&gt;mItemGalego.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mItemEspanol.Name" xml:space="preserve">
+    <value>mItemEspanol</value>
+  </data>
+  <data name="&gt;&gt;mItemEspanol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mItemIngles.Name" xml:space="preserve">
+    <value>mItemIngles</value>
+  </data>
+  <data name="&gt;&gt;mItemIngles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mItemEditar.Name" xml:space="preserve">
+    <value>mItemEditar</value>
+  </data>
+  <data name="&gt;&gt;mItemEditar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mItemCambiarTema.Name" xml:space="preserve">
+    <value>mItemCambiarTema</value>
+  </data>
+  <data name="&gt;&gt;mItemCambiarTema.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mItemTemaVermello.Name" xml:space="preserve">
+    <value>mItemTemaVermello</value>
+  </data>
+  <data name="&gt;&gt;mItemTemaVermello.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;mItemTemaAzul.Name" xml:space="preserve">
     <value>mItemTemaAzul</value>
   </data>
-  <data name="btnReiniciar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 100</value>
+  <data name="&gt;&gt;mItemTemaAzul.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 25</value>
+  <data name="&gt;&gt;mItemTemaAmarelo.Name" xml:space="preserve">
+    <value>mItemTemaAmarelo</value>
   </data>
-  <data name="mItemGalego.ToolTipText" xml:space="preserve">
-    <value>Idioma galego</value>
+  <data name="&gt;&gt;mItemTemaAmarelo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="toolStrip1.Text" xml:space="preserve">
-    <value>toolStrip1</value>
+  <data name="&gt;&gt;mItemTemaVerde.Name" xml:space="preserve">
+    <value>mItemTemaVerde</value>
   </data>
-  <data name="panelFondo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 124</value>
+  <data name="&gt;&gt;mItemTemaVerde.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="panelFondo.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;mItemDetalles.Name" xml:space="preserve">
+    <value>mItemDetalles</value>
   </data>
-  <data name="&gt;&gt;mItemIdioma.Type" xml:space="preserve">
+  <data name="&gt;&gt;mItemDetalles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mItemAutor.Name" xml:space="preserve">
+    <value>mItemAutor</value>
+  </data>
+  <data name="&gt;&gt;mItemAutor.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;miToolTip.Name" xml:space="preserve">
     <value>miToolTip</value>
   </data>
-  <data name="mItemIdioma.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 20</value>
+  <data name="&gt;&gt;miToolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>es-ES</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="tTempo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="miToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>299, 17</value>
-  </metadata>
-  <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>194, 17</value>
-  </metadata>
-  <metadata name="menu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>111, 17</value>
-  </metadata>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MeuFormulario</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

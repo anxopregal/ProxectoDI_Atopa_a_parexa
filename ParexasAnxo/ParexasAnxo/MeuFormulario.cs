@@ -8,23 +8,27 @@ using System.Windows.Forms;
 using System.Resources;
 using System.Threading;
 using System.Globalization;
+using ParexasAnxo.RecursosLocalizables;
+using System.IO;
 
 namespace ParexasAnxo
 {
     public partial class MeuFormulario : Form
     {
-         Partida partida;
-         TableLayoutPanel tablaPanel;
-         ResourceManager myManager;
-         int indPrimario=-1, indSecundario=-1;
-         PictureBox cartaSeleccionada, cartaSeleccionada1, cartaSeleccionada2;
+        private Partida partida;
+        private TableLayoutPanel tablaPanel;
+        private ResourceManager myManager;
+        private PictureBox cartaSeleccionada, cartaSeleccionada1, cartaSeleccionada2;
+        private string lenguaje;
+        private int indPrimario =-1, indSecundario=-1;
 
         //Método principal
         public MeuFormulario()
         {
             InitializeComponent();
-            partida = new Partida(4, 0, 0);//tamañoTableiro,movementos,CartasXiradas
+            lenguaje = Thread.CurrentThread.CurrentUICulture.Name;
             myManager = new ResourceManager("ParexasAnxo.Properties.Resources", this.GetType().Assembly);
+            recuperarDatos();
             iniciarXogo();
         }
 
@@ -32,14 +36,14 @@ namespace ParexasAnxo
         {
             this.Controls.Clear();
             InitializeComponent();
-            lblMovementosEdit.Text = "0";
-            partida = new Partida(4, 0, 0);
+            recuperarDatos();
             iniciarXogo();
         }
 
 
         public void iniciarXogo()
         {
+            partida = new Partida(4, 0, 0);
             cargarCartasMemoria();
             baraxarCartas();
             configPanelXogo();
@@ -169,7 +173,14 @@ namespace ParexasAnxo
 
                     if (partida.contCantidadCartasXiradas == 16)
                     {
-                        DialogResult result= MessageBox.Show("Ti gañas\nDesexas xogar outra partida?", "FIN DO XOGO", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk);
+                        string nomeUsu = Microsoft.VisualBasic.Interaction.InputBox(StringResources.tiganas + "\n\n" + StringResources.teunome,StringResources.tiganas,StringResources.anonimo);
+                        if (nomeUsu.CompareTo("")!=0)
+                        {
+                            guardarMovementos(partida.contMovementos.ToString(),nomeUsu);
+                        }
+                        
+                        DialogResult result= MessageBox.Show(StringResources.desexas, StringResources.fin, MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk);
+                        
 
                         if (result == DialogResult.Yes)
                         {
@@ -229,7 +240,7 @@ namespace ParexasAnxo
 
         private void mItemAutor_Click(object sender, EventArgs e)
         {
-            DialogResult result = MessageBox.Show("Feito por: Anxo Pregal\nProxecto DI\nCurso 16/17", "Créditos", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            DialogResult result = MessageBox.Show(StringResources.feitopor + "\n\t" + StringResources.autor + "\n\n" + StringResources.proxecto + "\n" + StringResources.curso, StringResources.infor, MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void mItemGalego_Click(object sender, EventArgs e)
@@ -237,6 +248,7 @@ namespace ParexasAnxo
             this.Controls.Clear();
             Thread.CurrentThread.CurrentUICulture = new CultureInfo("");
             this.InitializeComponent();
+            iniciarXogo();
         }
 
         private void mItemEspanol_Click(object sender, EventArgs e)
@@ -244,11 +256,15 @@ namespace ParexasAnxo
             this.Controls.Clear();
             Thread.CurrentThread.CurrentUICulture = new CultureInfo("es-Es");
             this.InitializeComponent();
+            iniciarXogo();
         }
 
         private void mItemIngles_Click(object sender, EventArgs e)
         {
-
+            this.Controls.Clear();
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo("en");
+            this.InitializeComponent();
+            iniciarXogo();
         }
 
         //Drag&Drop
@@ -261,6 +277,40 @@ namespace ParexasAnxo
         {
             string[] files = (string[])e.Data.GetData(DataFormats.FileDrop, false);
             panelFondo.BackgroundImage = Image.FromFile(files[0]);
+        }
+
+        //Guardar datos
+        private void guardarMovementos(string puntos,string nome)
+        {
+            if (!File.Exists("Historial.txt"))
+            {
+                using (StreamWriter sw=new StreamWriter("Historial.txt"))
+                {
+                    sw.WriteLine(nome+" - "+puntos);
+                }
+            }else
+            {
+                using (StreamWriter sw = File.AppendText("Historial.txt"))
+                {
+                    sw.WriteLine(nome + " - " + puntos);
+                }
+            }
+        }
+
+        //Recuperar datos
+        private void recuperarDatos()
+        {
+            if (File.Exists("Historial.txt"))
+            {
+                using (StreamReader sr = File.OpenText("Historial.txt"))
+                {
+                    string s = "";
+                    while ((s = sr.ReadLine()) != null)
+                    {
+                        lbPuntuacions.Items.Add(s);
+                    }
+                }
+            }
         }
 
 

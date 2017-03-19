@@ -117,9 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="btnXogoNovo.Text" xml:space="preserve">
-    <value>&amp;Nuevo juego</value>
-  </data>
   <data name="lblMovementos.Text" xml:space="preserve">
     <value>Nº movimientos:</value>
   </data>
@@ -181,11 +178,8 @@
   <data name="mItemGalego.ToolTipText" xml:space="preserve">
     <value>Idioma gallego</value>
   </data>
-  <data name="mItemCambiarTema.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
   <data name="mItemTemaVermello.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>119, 22</value>
   </data>
   <data name="mItemTemaVermello.Text" xml:space="preserve">
     <value>Rojo</value>
@@ -194,7 +188,10 @@
     <value>Tema Rojo</value>
   </data>
   <data name="mItemTemaAzul.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>119, 22</value>
+  </data>
+  <data name="mItemTemaAmarelo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 22</value>
   </data>
   <data name="mItemTemaAmarelo.Text" xml:space="preserve">
     <value>Amarillo</value>
@@ -203,10 +200,10 @@
     <value>Tema Amarillo</value>
   </data>
   <data name="mItemTemaVerde.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>119, 22</value>
   </data>
-  <data name="mItemAutor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 22</value>
+  <data name="btnXogoNovo.Text" xml:space="preserve">
+    <value>&amp;Nuevo juego</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
